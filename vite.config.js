@@ -8,4 +8,14 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    css: {
+        devSourcemap: true,
+    },
+    server: {
+        https: false,
+        host: true,
+        strictPort: true,
+        port: 3009,
+        hmr: {host: 'platzifood.lndo.site', protocol: 'ws'},
+    },
 });

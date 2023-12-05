@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
+
+.form-control {
+    @apply w-full leading-snug py-1 px-4 rounded border border-blue-300 bg-gray-200 text-gray-800 placeholder-secondary hover:bg-white;
+}
+
+.btn {
+    @apply py-1 px-4 rounded block bg-primary hover:bg-yellow-500;
+}
+
 @tailwind utilities;
+
+h1 {
+    @apply text-3xl text-green-700 font-semibold;
+}
+
+h2 {
+    @apply text-2xl text-green-400 font-semibold;
+}
+
+h3 {
+    @apply text-xl text-green-100 font-semibold;
+}

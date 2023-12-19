@@ -9,6 +9,14 @@
     @apply py-1 px-4 rounded block bg-primary hover:bg-yellow-500;
 }
 
+.navbar-item {
+    @apply flex items-center mb-1 py-2 px-4 text-gray-400 hover:mx-2 hover:bg-white hover:text-gray-700 hover:rounded-lg;
+}
+
+.navbar-item-active {
+    @apply mx-2 bg-white text-gray-900 rounded-lg;
+}
+
 @tailwind utilities;
 
 h1 {

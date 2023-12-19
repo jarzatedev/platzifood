@@ -28,3 +28,7 @@ Route::get('home', function () {
 Route::get('apply', function () {
     return view('apply');
 });
+
+Route::get('challenge', function () {
+    return view('challenge');
+})->name('challenge');
